@@ -1,0 +1,88 @@
+.zh_sort {
+    padding-top: 50px;
+    width: 100%;
+    height: 100%;
+}
+
+.zh_sort_left {
+    width: 85px;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    background-color: #f8f8f8;
+}
+
+.zh_sort_left ul {
+    width: 100%;
+}
+
+.zh_sort_left ul li {
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    background-color: #f8f8f8;
+}
+
+.zh_sort_left ul li a {
+    font-size: 16px;
+    display: block;
+    width: 100%;
+}
+
+.zh_sort_left ul li.now {
+    background-color: #fff;
+    border-right: 5px solid skyblue;
+}
+
+.zh_sort_left ul li.now a {
+    color: skyblue;
+}
+
+.zh_sort_right {
+    overflow: hidden;
+    height: 100%;
+}
+
+.zh_sort_right_box {
+    padding: 0 10px;
+}
+
+.zh_sort_right_box .carousel {
+    margin-top: 10px;
+    width: 100%;
+    display: block;
+}
+
+.zh_sort_right_box_columns {
+    margin-top: 10px;
+}
+
+.zh_sort_right_box_columns ul {
+    width: 100%;
+}
+
+.zh_sort_right_box_columns ul li {
+    width: 33.3333%;
+    float: left;
+    padding-top: 5px;
+}
+
+.zh_sort_right_box_columns ul li a {
+    display: block;
+    width: 100%;
+}
+
+.zh_sort_right_box_columns ul li a img {
+    display: block;
+    width: 55px;
+    height: 55px;
+    margin: 0 auto;
+}
+
+.zh_sort_right_box_columns ul li a p {
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}

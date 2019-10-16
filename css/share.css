@@ -1,0 +1,157 @@
+.zh_share {
+    height: 100%;
+    width: 100%;
+    padding-top: 50px;
+}
+
+.zh_share_interactive {
+    width: 100%;
+    height: 100%;
+}
+
+.zh_share_interactive_tab {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.zh_share_interactive_tab ul {
+    width: 100%;
+    height: 100%;
+}
+
+.zh_share_interactive_tab ul li {
+    float: left;
+    width: 25%;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+
+.zh_share_interactive_tab ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.zh_share_interactive_tab ul li a i {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    margin-left: -12px;
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.fa-film {
+    color: #3bc7ff;
+}
+
+.fa-commenting {
+    color: #36ee6d;
+}
+
+.fa-pencil-square-o {
+    color: #5947ff;
+}
+
+.fa-thumbs-up {
+    color: #ff6b90;
+}
+
+.zh_share_interactive_tab ul li a span {
+    width: 40px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -20px;
+}
+
+.zh_publication_user_subscription a {
+    position: absolute;
+    top: 15px;
+    right: 5px;
+    height: 20px;
+    line-height: 20px;
+    width: 50px;
+    display: block;
+    text-align: center;
+    font-size: 15px;
+}
+
+.zh_share_interactive_chat_list {
+    width: 100%;
+    height: 100%;
+}
+
+.zh_share_interactive_reply_list {
+    width: 100%;
+    height: 100%;
+}
+
+.zh_share_interactive_list ul {
+    width: 100%;
+    height: 100%;
+}
+
+.zh_share_interactive_list ul li {
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #eee;
+}
+
+.zh_share_interactive_list ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.zh_share_interactive_list ul li a img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    visibility: top;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.zh_share_interactive_list_username {
+    font-size: 16px;
+    position: absolute;
+    top: 8px;
+    left: 58px;
+}
+
+.zh_share_interactive_list_time {
+    font-size: 12px;
+    position: absolute;
+    top: 13px;
+    left: 110px;
+}
+
+.zh_share_interactive_list_info {
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    left: 58px;
+    height: 22px;
+    text-overflow: ellipsis;
+    max-width: 80%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.zh_share_interactive_list_piaise {
+    font-size: 14px;
+    position: absolute;
+    top: 30px;
+    left: 58px;
+    height: 22px;
+}
