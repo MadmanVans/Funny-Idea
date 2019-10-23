@@ -13,6 +13,7 @@ body {
   font-size: 14px;
   font-family: "Microsoft YaHei", sans-serif;
   color: #333;
+  height: 2000px;
 }
 
 a {
@@ -151,7 +152,7 @@ img {
 .carousel-indicators {
   position: absolute;
   bottom: -10px;
-  left: 50%;
+  left: 85%;
   z-index: 15;
   width: 60%;
   padding-left: 0;

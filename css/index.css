@@ -25,7 +25,7 @@
 .zh_scroll_bar ul li {
     width: 60px;
     float: left;
-    font-size: 16px;
+    font-size: 15px;
     height: 40px;
     line-height: 40px;
 }
@@ -35,14 +35,12 @@
     text-align: center;
     display: inline-block;
     width: 100%;
+    position: relative;
 }
 
-.zh_scroll_bar ul li.now {
-    border-bottom: 5px solid skyblue;
-}
-
-.zh_scroll_bar ul li.now a {
+.zh_scroll_bar ul li:hover a {
     color: skyblue;
+    font-size: 18px;
 }
 
 .zh_scroll_bar ul li a:hover {
@@ -53,7 +51,8 @@
 .zh_sy_top_swiper {
     margin: 100px auto 0;
     width: 96%;
-    height: 150px;
+    min-width: 320px;
+    height: 158px;
     border-radius: 15px;
     overflow: hidden;
 }
@@ -61,7 +60,31 @@
 .carousel-inner img {
     display: block;
     width: 100%;
-    height: 150px;
+    height: auto;
+}
+
+.carousel-inner a {
+    display: block;
+    width: 100%;
+    height: 158px;
+}
+
+.carousel-inner span {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+}
+.carousel-inner a::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 /* 主页推送 */
@@ -197,14 +220,24 @@
 
 .zh_publication_content p {
     position: absolute;
-    bottom: 5px;
-    left: 15%;
-    font-size: 16px;
-    color: white;
+    bottom: -5px;
+    left: 7%;
+    font-size: 14px;
+    color: #fff;
     max-width: 60%;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+.zh_publication_content a::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 28px;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .zh_publication_comment ul {

@@ -55,6 +55,18 @@
     display: block;
 }
 
+.zh_sort_right_box .carousel-inner a {
+    display: block;
+    width: 100%;
+    height: 120px;
+}
+
+.zh_sort_right_box .carousel-inner a img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
 .zh_sort_right_box_columns {
     margin-top: 10px;
 }
