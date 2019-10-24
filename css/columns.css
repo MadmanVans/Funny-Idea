@@ -4,7 +4,7 @@
     height: 100%;
 }
 
-.zh_sort_left {
+.zh_sortLeft {
     width: 85px;
     height: 100%;
     float: left;
@@ -12,11 +12,12 @@
     background-color: #f8f8f8;
 }
 
-.zh_sort_left ul {
+.zh_sortLeft ul {
     width: 100%;
+    height: 860px;
 }
 
-.zh_sort_left ul li {
+.zh_sortLeft ul li {
     height: 45px;
     line-height: 45px;
     text-align: center;
@@ -25,75 +26,72 @@
     background-color: #f8f8f8;
 }
 
-.zh_sort_left ul li a {
+.zh_sortLeft ul li a {
     font-size: 16px;
     display: block;
     width: 100%;
 }
 
-.zh_sort_left ul li.now {
+.zh_sortLeft ul li:hover a {
     background-color: #fff;
-    border-right: 5px solid skyblue;
-}
-
-.zh_sort_left ul li.now a {
+    border-right: 2px solid skyblue;
     color: skyblue;
 }
 
-.zh_sort_right {
+.zh_sortRight {
     overflow: hidden;
     height: 100%;
 }
 
-.zh_sort_right_box {
+.zh_sortRight_box {
     padding: 0 10px;
 }
 
-.zh_sort_right_box .carousel {
+.zh_sortRight_box .carousel {
     margin-top: 10px;
     width: 100%;
     display: block;
 }
 
-.zh_sort_right_box .carousel-inner a {
+.zh_sortRight_box .carousel-inner a {
     display: block;
     width: 100%;
     height: 120px;
 }
 
-.zh_sort_right_box .carousel-inner a img {
+.zh_sortRight_box .carousel-inner a img {
     display: block;
     width: 100%;
     height: 100%;
 }
 
-.zh_sort_right_box_columns {
+.zh_sortRight_box_columns {
     margin-top: 10px;
 }
 
-.zh_sort_right_box_columns ul {
+.zh_sortRight_box_columns ul {
     width: 100%;
 }
 
-.zh_sort_right_box_columns ul li {
+.zh_sortRight_box_columns ul li {
     width: 33.3333%;
     float: left;
     padding-top: 5px;
 }
 
-.zh_sort_right_box_columns ul li a {
+.zh_sortRight_box_columns ul li a {
     display: block;
     width: 100%;
 }
 
-.zh_sort_right_box_columns ul li a img {
+.zh_sortRight_box_columns ul li a img {
     display: block;
     width: 55px;
     height: 55px;
     margin: 0 auto;
 }
 
-.zh_sort_right_box_columns ul li a p {
+.zh_sortRight_box_columns ul li a p {
     font-size: 12px;
     text-align: center;
     padding: 5px 0;
