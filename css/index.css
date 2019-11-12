@@ -78,7 +78,8 @@
     font-size: 14px;
     font-weight: bold;
 }
-.carousel-inner a::before{
+
+.carousel-inner a::before {
     content: "";
     position: absolute;
     bottom: 0;
